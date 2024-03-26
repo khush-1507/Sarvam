@@ -1,0 +1,47 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+   
+    
+  }
+  
+  h1 {
+    color:white;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top:20PX;
+  
+  }
+  
+  .btn {
+    padding: 10px 60px;
+    background-color:wheat;
+    color: #0a3d5f;
+    border:black;
+    cursor: pointer;
+    font-size:20px;
+  }
+  
+  .btn:hover {
+    background-color: #ffd900;
+  }
+  
+  .button-container button {
+    margin-bottom: 10px; /* Adjust this value to control the vertical gap */
+  }
+  
+  .background-image-container {
+    background-image: url('D:\Sarvam\frontend\src\components\images\globe.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Add any other background image styles here */
+  }
+  
